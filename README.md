@@ -15,5 +15,5 @@ python preprocess_urdf.py --urdf_path=./19179
 
 #### Generate
 ```bash
-python test_urdf.py --urdf_path=./19179
+python generate_mesh.py --urdf_path=./19179
 ```

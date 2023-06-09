@@ -91,7 +91,6 @@ def main(args):
     # save to .obj
     obj_file = os.path.join(args.urdf_path, 'new_shape.obj')
     merged_mesh.export(obj_file)
-    mesh_all.export(os.path.join(args.urdf_path, 'all_shape.obj'))
     
 if __name__ == "__main__":
     # parse arguments
